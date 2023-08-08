@@ -6,6 +6,6 @@ const image = ({src,alt,...resProps}) => {
 export const ImageInfo = styled(image)`
     display: block;
     width: 100%;
-    height : 700px;
+    height: 350px;
     margin: 0 auto;
 `;
