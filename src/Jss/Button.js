@@ -12,6 +12,16 @@ export const Button = styled(button)`
     border-radius: 3px;
     transition: all .4s;
 `;
+export const ButtonDefault = styled(Button)`
+    background-color: #4527A0;
+    color: #fff;
+    border: 1px solid #fff;
+    &:hover {
+        background-color: #fff;
+        color: #4527A0;
+        border: 1px solid #4527A0;
+    }
+`;
 export const ButtonLike = styled(Button)`
     background-color: #B71C1C;
     color: #fff;

@@ -6,6 +6,7 @@ const div = ({...resProps}) => {
 export const DivCard = styled(div)`
     display: block;
     width: 100%;
+    height: 500px;
     border: 2px solid #000;
     border-radius: 7px;
 `;

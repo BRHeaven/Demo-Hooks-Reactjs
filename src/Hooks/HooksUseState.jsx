@@ -11,7 +11,7 @@ export default function HooksUseState(props) {
     const handleLike = () => {
         return setLike({like: stateLike.like + 1});
     }
-    const hanleDislike = () => {
+    const handleDislike = () => {
         return setDislike({dislike : stateDislike.dislike + 1});
     }
     console.log("re-render useState");
@@ -33,7 +33,7 @@ export default function HooksUseState(props) {
             </DivInfo>
             <DivButton>
                 <ButtonLike type="button" onClick={() => {handleLike()}}>Like <i className="fa fa-heart"/></ButtonLike>
-                <ButtonDisLike type="button" onClick={() => {hanleDislike()}}>DisLike <i className="fa fa-heart-broken" /></ButtonDisLike>
+                <ButtonDisLike type="button" onClick={() => {handleDislike()}}>DisLike <i className="fa fa-heart-broken" /></ButtonDisLike>
             </DivButton>
         </DivCard>
     </Hooks>
