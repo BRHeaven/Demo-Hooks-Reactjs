@@ -30,3 +30,7 @@ export const DivButton = styled(div)`
     display: flex;
     margin: 10px 0;
 `;
+export const DivText = styled(div)`
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+`;
