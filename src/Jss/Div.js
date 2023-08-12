@@ -34,3 +34,5 @@ export const DivText = styled(div)`
     display: grid;
     grid-template-columns: repeat(2,1fr);
 `;
+export const DivInput = styled(div)`
+`;
