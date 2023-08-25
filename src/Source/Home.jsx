@@ -1,4 +1,6 @@
+import HookContextProvider from "../Hooks/HookContextProvider";
 import HookUseCallback from "../Hooks/HookUseCallback";
+import HookUseContext from "../Hooks/HookUseContext";
 import HookUseEffect from "../Hooks/HookUseEffect";
 import HookUseMemo from "../Hooks/HookUseMemo";
 import HookUseReducer from "../Hooks/HookUseReducer";
@@ -15,6 +17,9 @@ export default function Home(props) {
         <HookUseMemo/>
         <HookUseRef/>
         <HookUseReducer/>
+        <HookContextProvider>
+          <HookUseContext/>
+        </HookContextProvider>
     </SectionMain>
   )
 };
