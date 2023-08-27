@@ -14,3 +14,8 @@ export const SectionMain = styled(section)`
 export const Hooks = styled(section)`
 
 `;
+export const HooksRedux = styled(section)`
+    grid-column: 1 / span 8;
+    border: 2px solid #000;
+    border-radius: 5px;
+`;

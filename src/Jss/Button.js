@@ -8,6 +8,7 @@ export const Button = styled(button)`
     padding : 5px 10px;
     margin : 0px 5px;
     font-size: 1.1em;
+    text-transform: capitalize;
     cursor: pointer;
     border-radius: 3px;
     transition: all .4s;
@@ -73,4 +74,14 @@ border: 1px solid #000;
     color: #000;
     border: 1px solid #000;
 }
+`;
+export const ButtonMessage = styled(Button)`
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    &:hover {
+        background-color: #fff;
+        color: #000;
+        border: 1px solid #000;
+    }
 `;

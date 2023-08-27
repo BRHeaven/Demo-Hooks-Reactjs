@@ -29,3 +29,18 @@ export const TextCard = styled(text)`
     padding : 0 5px;
     grid-column: 1 / span 2;
 `;
+export const TextName = styled(text)`
+    margin: 0;
+    text-align: start;
+    text-transform: capitalize;
+    font-size: 1.1em;
+    font-weight: bold;
+    font-style: oblique;
+    letter-spacing: .5px;
+`;
+export const TextMessage = styled(text)`
+    margin: 5px 0;
+    text-align: start;
+    letter-spacing: .3px;
+    color: #444;
+`;

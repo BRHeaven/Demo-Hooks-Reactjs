@@ -9,3 +9,9 @@ export const ImageInfo = styled(image)`
     height: 350px;
     margin: 0 auto;
 `;
+export const ImageAvatar = styled(image)`
+    display: block;
+    margin: 0 auto;
+    height : 50px;
+    width : 50px;
+`;

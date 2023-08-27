@@ -55,3 +55,25 @@ export const DivListCard = styled(div)`
     padding-bottom: 20px;
     border-bottom: 1px solid #292f2d;
 `;
+export const DivMessage = styled(div)`
+    width: 85%;
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid #333;
+    border-radius: 5px;
+`;
+export const DivUser = styled(div)`
+    display: grid;
+    grid-template-columns: repeat(20,1fr);
+    align-items: center;
+    width: 90%;
+    padding: 10px 0;
+    margin: 0 auto;
+    border-bottom: 1px solid #222;
+`;
+export const DivAvatar = styled(div)`
+    grid-column: 1 / span 1;
+`;
+export const DivUserMessage = styled(div)`
+    grid-column: 2 / span 19;
+`;
